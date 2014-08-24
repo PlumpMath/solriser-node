@@ -1,0 +1,11 @@
+{
+    "name": "solriser",
+    "version": "0.1.0",
+    "description": "Lighting controller for the BRSS SolRiser, a Burning Man mutant vehicle art car.  The car contains 31 sets of RGB LEDs controlled via DMX.  This controller exposes OSC handlers to enable interactive administration and fun from a WIFI smart device app, like TouchOSC.  This controller code runs on an Arduino Yun with a Tinkerkit.com MasterDMX shield.",
+    "keywords": ["OSC", "DMX", "LED", "RGB", "Burning Man", "TouchOSC", "Arduino", "Yun"],
+    "repository" : { "type" : "git", "url" : "http://github.com/thos37/solriser-node.git"},
+    "dependencies": {
+        "osc": "thos37/osc.js"
+    },
+    "main": "sol.js"
+}
