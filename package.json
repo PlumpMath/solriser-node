@@ -5,7 +5,8 @@
     "keywords": ["OSC", "DMX", "LED", "RGB", "Burning Man", "TouchOSC", "Arduino", "Yun"],
     "repository" : { "type" : "git", "url" : "http://github.com/thos37/solriser-node.git"},
     "dependencies": {
-        "osc": "thos37/osc.js"
+        "osc": "thos37/osc.js",
+        "q": "^1.0.1"
     },
     "main": "sol.js"
 }
